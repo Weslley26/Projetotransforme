@@ -1,0 +1,10 @@
+C:\Users\laercio.nsilva\Documents\Visual Studio 2019\TransformeSe\FolhaPagamento\bin\Debug\FolhaPagamento.exe.config
+C:\Users\laercio.nsilva\Documents\Visual Studio 2019\TransformeSe\FolhaPagamento\bin\Debug\FolhaPagamento.exe
+C:\Users\laercio.nsilva\Documents\Visual Studio 2019\TransformeSe\FolhaPagamento\bin\Debug\FolhaPagamento.pdb
+C:\Users\laercio.nsilva\Documents\Visual Studio 2019\TransformeSe\FolhaPagamento\obj\Debug\FolhaPagamento.csproj.AssemblyReference.cache
+C:\Users\laercio.nsilva\Documents\Visual Studio 2019\TransformeSe\FolhaPagamento\obj\Debug\FolhaPagamento.frmFluxoCaixa.resources
+C:\Users\laercio.nsilva\Documents\Visual Studio 2019\TransformeSe\FolhaPagamento\obj\Debug\FolhaPagamento.Properties.Resources.resources
+C:\Users\laercio.nsilva\Documents\Visual Studio 2019\TransformeSe\FolhaPagamento\obj\Debug\FolhaPagamento.csproj.GenerateResource.cache
+C:\Users\laercio.nsilva\Documents\Visual Studio 2019\TransformeSe\FolhaPagamento\obj\Debug\FolhaPagamento.csproj.CoreCompileInputs.cache
+C:\Users\laercio.nsilva\Documents\Visual Studio 2019\TransformeSe\FolhaPagamento\obj\Debug\FolhaPagamento.exe
+C:\Users\laercio.nsilva\Documents\Visual Studio 2019\TransformeSe\FolhaPagamento\obj\Debug\FolhaPagamento.pdb
