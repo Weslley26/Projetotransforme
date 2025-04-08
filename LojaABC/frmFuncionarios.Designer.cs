@@ -31,6 +31,7 @@ namespace LojaABC
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmFuncionarios));
             this.gpbDadosPessoais = new System.Windows.Forms.GroupBox();
+            this.btnBuscaCep = new System.Windows.Forms.Button();
             this.mskCelular = new System.Windows.Forms.MaskedTextBox();
             this.lblCelular = new System.Windows.Forms.Label();
             this.gpbSexo = new System.Windows.Forms.GroupBox();
@@ -58,8 +59,8 @@ namespace LojaABC
             this.gpbEndereco = new System.Windows.Forms.GroupBox();
             this.cbbUF = new System.Windows.Forms.ComboBox();
             this.lblUF = new System.Windows.Forms.Label();
-            this.txtEsdado = new System.Windows.Forms.TextBox();
-            this.lblEstado = new System.Windows.Forms.Label();
+            this.txtBairro = new System.Windows.Forms.TextBox();
+            this.lblBairro = new System.Windows.Forms.Label();
             this.txtCidade = new System.Windows.Forms.TextBox();
             this.lblCidade = new System.Windows.Forms.Label();
             this.txtComplemento = new System.Windows.Forms.TextBox();
@@ -78,6 +79,7 @@ namespace LojaABC
             // 
             // gpbDadosPessoais
             // 
+            this.gpbDadosPessoais.Controls.Add(this.btnBuscaCep);
             this.gpbDadosPessoais.Controls.Add(this.mskCelular);
             this.gpbDadosPessoais.Controls.Add(this.lblCelular);
             this.gpbDadosPessoais.Controls.Add(this.gpbSexo);
@@ -98,6 +100,15 @@ namespace LojaABC
             this.gpbDadosPessoais.TabIndex = 0;
             this.gpbDadosPessoais.TabStop = false;
             this.gpbDadosPessoais.Text = "Dados pessoais";
+            // 
+            // btnBuscaCep
+            // 
+            this.btnBuscaCep.Location = new System.Drawing.Point(406, 144);
+            this.btnBuscaCep.Name = "btnBuscaCep";
+            this.btnBuscaCep.Size = new System.Drawing.Size(206, 70);
+            this.btnBuscaCep.TabIndex = 16;
+            this.btnBuscaCep.Text = "buscaCep";
+            this.btnBuscaCep.UseVisualStyleBackColor = true;
             // 
             // mskCelular
             // 
@@ -361,8 +372,8 @@ namespace LojaABC
             // 
             this.gpbEndereco.Controls.Add(this.cbbUF);
             this.gpbEndereco.Controls.Add(this.lblUF);
-            this.gpbEndereco.Controls.Add(this.txtEsdado);
-            this.gpbEndereco.Controls.Add(this.lblEstado);
+            this.gpbEndereco.Controls.Add(this.txtBairro);
+            this.gpbEndereco.Controls.Add(this.lblBairro);
             this.gpbEndereco.Controls.Add(this.txtCidade);
             this.gpbEndereco.Controls.Add(this.lblCidade);
             this.gpbEndereco.Controls.Add(this.txtComplemento);
@@ -426,22 +437,22 @@ namespace LojaABC
             this.lblUF.TabIndex = 14;
             this.lblUF.Text = "UF";
             // 
-            // txtEsdado
+            // txtBairro
             // 
-            this.txtEsdado.Location = new System.Drawing.Point(617, 82);
-            this.txtEsdado.MaxLength = 100;
-            this.txtEsdado.Name = "txtEsdado";
-            this.txtEsdado.Size = new System.Drawing.Size(135, 26);
-            this.txtEsdado.TabIndex = 17;
+            this.txtBairro.Location = new System.Drawing.Point(617, 85);
+            this.txtBairro.MaxLength = 100;
+            this.txtBairro.Name = "txtBairro";
+            this.txtBairro.Size = new System.Drawing.Size(135, 26);
+            this.txtBairro.TabIndex = 17;
             // 
-            // lblEstado
+            // lblBairro
             // 
-            this.lblEstado.AutoSize = true;
-            this.lblEstado.Location = new System.Drawing.Point(552, 85);
-            this.lblEstado.Name = "lblEstado";
-            this.lblEstado.Size = new System.Drawing.Size(60, 20);
-            this.lblEstado.TabIndex = 12;
-            this.lblEstado.Text = "Estado";
+            this.lblBairro.AutoSize = true;
+            this.lblBairro.Location = new System.Drawing.Point(552, 85);
+            this.lblBairro.Name = "lblBairro";
+            this.lblBairro.Size = new System.Drawing.Size(51, 20);
+            this.lblBairro.TabIndex = 12;
+            this.lblBairro.Text = "Bairro";
             // 
             // txtCidade
             // 
@@ -501,6 +512,7 @@ namespace LojaABC
             this.mskCEP.Name = "mskCEP";
             this.mskCEP.Size = new System.Drawing.Size(100, 26);
             this.mskCEP.TabIndex = 13;
+            this.mskCEP.KeyDown += new System.Windows.Forms.KeyEventHandler(this.mskCEP_KeyDown);
             // 
             // lblCEP
             // 
@@ -580,8 +592,8 @@ namespace LojaABC
         private System.Windows.Forms.Label lblLogradouro;
         private System.Windows.Forms.ComboBox cbbUF;
         private System.Windows.Forms.Label lblUF;
-        private System.Windows.Forms.TextBox txtEsdado;
-        private System.Windows.Forms.Label lblEstado;
+        private System.Windows.Forms.TextBox txtBairro;
+        private System.Windows.Forms.Label lblBairro;
         private System.Windows.Forms.TextBox txtCidade;
         private System.Windows.Forms.Label lblCidade;
         private System.Windows.Forms.TextBox txtComplemento;
@@ -596,5 +608,6 @@ namespace LojaABC
         private System.Windows.Forms.Button btnExcluir;
         private System.Windows.Forms.Button btnAlterar;
         private System.Windows.Forms.Button btnCadastrar;
+        private System.Windows.Forms.Button btnBuscaCep;
     }
 }

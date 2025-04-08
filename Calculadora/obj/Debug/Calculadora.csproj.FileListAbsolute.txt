@@ -8,3 +8,13 @@ C:\Users\laercio.nsilva\Documents\Visual Studio 2019\TransformeSe\Calculadora\ob
 C:\Users\laercio.nsilva\Documents\Visual Studio 2019\TransformeSe\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
 C:\Users\laercio.nsilva\Documents\Visual Studio 2019\TransformeSe\Calculadora\obj\Debug\Calculadora.exe
 C:\Users\laercio.nsilva\Documents\Visual Studio 2019\TransformeSe\Calculadora\obj\Debug\Calculadora.pdb
+C:\Users\wesley.sjesus7\Documents\Visual Studio 2022\Projetotransforme\Calculadora\bin\Debug\Calculadora.exe.config
+C:\Users\wesley.sjesus7\Documents\Visual Studio 2022\Projetotransforme\Calculadora\bin\Debug\Calculadora.exe
+C:\Users\wesley.sjesus7\Documents\Visual Studio 2022\Projetotransforme\Calculadora\bin\Debug\Calculadora.pdb
+C:\Users\wesley.sjesus7\Documents\Visual Studio 2022\Projetotransforme\Calculadora\obj\Debug\Calculadora.csproj.AssemblyReference.cache
+C:\Users\wesley.sjesus7\Documents\Visual Studio 2022\Projetotransforme\Calculadora\obj\Debug\Calculadora.frmCalculadora.resources
+C:\Users\wesley.sjesus7\Documents\Visual Studio 2022\Projetotransforme\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+C:\Users\wesley.sjesus7\Documents\Visual Studio 2022\Projetotransforme\Calculadora\obj\Debug\Calculadora.csproj.GenerateResource.cache
+C:\Users\wesley.sjesus7\Documents\Visual Studio 2022\Projetotransforme\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\wesley.sjesus7\Documents\Visual Studio 2022\Projetotransforme\Calculadora\obj\Debug\Calculadora.exe
+C:\Users\wesley.sjesus7\Documents\Visual Studio 2022\Projetotransforme\Calculadora\obj\Debug\Calculadora.pdb
